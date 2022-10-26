@@ -1,0 +1,29 @@
+.clients-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.clients-cards:hover,
+.clients-cards:focus {
+  border-color: $accent-color;
+}
+
+.link-clients {
+  display: flex;
+  padding: 0;
+  width: 170px;
+  height: 92px;
+  border: 1px solid $secondary-border-color;
+  fill: $secondary-border-color;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  transition: border-color $transition-main, fill $transition-main;
+}
+
+.link-clients:hover,
+.link-clients:focus {
+  border-color: $accent-color;
+  fill: $accent-color;
+}

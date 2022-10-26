@@ -1,0 +1,127 @@
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$accent-color: #2196f3;
+$main-background-color: #ffffff;
+$secondary-background-color: #f5f4fa;
+$footer-hero-background: #2f303a;
+$logo: #000000;
+$button-accent-hero: #188ce8;
+$border-color: #eeeeee;
+$header-border-color: #ececec;
+$secondary-border-color: #afb1b8;
+$input-color: rgba(47, 48, 58, 1);
+$portfolio-overlay: rgba(33, 150, 243, 0.9);
+$placeholder-color: rgba(117, 117, 117, 0.5);
+$input-border-color: rgba(33, 33, 33, 0.2);
+$box-shadow: rgba(0, 0, 0, 0.15);
+
+$main-font: Roboto, sans-serif;
+$transition-main: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-values {
+    padding-bottom: 0;
+}
+
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: $title-text-color;
+}
+
+.title-features,
+.title-names {
+  color: $title-text-color;
+}
+
+.title-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.text-names {
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.head-clients {
+  color: $title-text-color;
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.text-section {
+  padding: 0;
+  margin: 0;
+  width: 270px;
+}
+
+.about-text {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $main-background-color;
+}
+
+.portfolio__head {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  margin: 0;
+  color: $title-text-color;
+}
+
+.portfolio__text {
+  color: $primary-text-color;
+  font-size: 16px;
+  line-height: 1.88;
+  margin: 0;
+  margin-top: 4px;
+}
+
+.portfolio__overlay {
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: $main-background-color;
+}
